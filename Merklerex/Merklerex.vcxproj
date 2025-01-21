@@ -127,14 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CSVReader.cpp" />
     <ClCompile Include="Merklerex.cpp" />
+    <ClCompile Include="OrderBook.cpp" />
     <ClCompile Include="OrderBookEntry.cpp" />
+    <ClCompile Include="Wallet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CSVReader.h" />
+    <ClInclude Include="OrderBook.h" />
     <ClInclude Include="OrderBookEntry.h" />
+    <ClInclude Include="Wallet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
