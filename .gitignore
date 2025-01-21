@@ -1,0 +1,52 @@
+# Visual Studio folders to ignore
+.vs/                # Visual Studio temporary files
+*.suo               # Solution user options
+*.user              # User-specific project settings
+*.vcxproj.user      # User-specific project settings
+*.sln.docstates     # Solution-related cache files
+*.ncb
+
+# Build output directories
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+*.obj               # Compiled object files
+*.pdb               # Program database (debugging symbols)
+*.ilk               # Incremental linker files
+*.ipch              # Precompiled header information
+*.iobj              # Intermediate object files
+*.idb               # Incremental build files
+*.tlog              # Build log files
+*.lastbuildstate    # Last build state
+
+# Cache files
+*.log               # Log files
+*.cache             # Cached data
+*.VC.db             # IntelliSense database
+*.VC.opendb         # Opened IntelliSense database
+
+# Output binaries
+*.exe               # Executable files
+*.dll               # Dynamic link libraries
+*.lib               # Static libraries
+*.obj               # Object files
+*.tlb               # Type libraries
+*.tlh               # Type library headers
+*.tmp               # Temporary files
+
+# Visual Studio user-specific files
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.obj
+*.pdb
+*.ilk
+*.ipch
+*.iobj
+*.idb
+*.tlog
+*.lastbuildstate
